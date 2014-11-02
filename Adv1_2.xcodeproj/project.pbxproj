@@ -14,6 +14,7 @@
 		AE8DF9B21A05F27100565EFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8DF9B11A05F27100565EFC /* Images.xcassets */; };
 		AE8DF9B51A05F27100565EFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE8DF9B31A05F27100565EFC /* LaunchScreen.xib */; };
 		AE8DF9C11A05F27100565EFC /* Adv1_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8DF9C01A05F27100565EFC /* Adv1_2Tests.m */; };
+		AE8DF9CC1A05F45700565EFC /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8DF9CB1A05F45700565EFC /* BackViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AE8DF9BA1A05F27100565EFC /* Adv1_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adv1_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DF9BF1A05F27100565EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8DF9C01A05F27100565EFC /* Adv1_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adv1_2Tests.m; sourceTree = "<group>"; };
+		AE8DF9CA1A05F45700565EFC /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackViewController.h; sourceTree = "<group>"; };
+		AE8DF9CB1A05F45700565EFC /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				AE8DF9B11A05F27100565EFC /* Images.xcassets */,
 				AE8DF9B31A05F27100565EFC /* LaunchScreen.xib */,
 				AE8DF9A41A05F27100565EFC /* Supporting Files */,
+				AE8DF9CA1A05F45700565EFC /* BackViewController.h */,
+				AE8DF9CB1A05F45700565EFC /* BackViewController.m */,
 			);
 			path = Adv1_2;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				AE8DF9AD1A05F27100565EFC /* ViewController.m in Sources */,
 				AE8DF9AA1A05F27100565EFC /* AppDelegate.m in Sources */,
 				AE8DF9A71A05F27100565EFC /* main.m in Sources */,
+				AE8DF9CC1A05F45700565EFC /* BackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

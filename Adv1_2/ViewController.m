@@ -7,13 +7,20 @@
 //
 
 #import "ViewController.h"
-
+#import "BackViewController.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender   {
+    BackViewController* destination = segue.destinationViewController;
+    destination.delegate = self;
+    
+}
+- (void) backToMain {
+    [self cancelDisplay];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -22,6 +29,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) cancelDisplay
+{
+    [self dismissViewControllerAnimated:YES completion:^{
+        ;
+    }];
+    
 }
 
 @end

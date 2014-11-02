@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+@protocol ViewControllerDelegate
+-(void) backToMain;
+@end
+@interface ViewController : UIViewController<ViewControllerDelegate>
 
 
 @end
