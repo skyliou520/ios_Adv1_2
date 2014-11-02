@@ -12,4 +12,6 @@
 
 - (IBAction)backToMain:(id)sender;
 @property (weak) id<ViewControllerDelegate> delegate;
+
+-(IBAction)backMessage:(UIStoryboardSegue*)segue;
 @end

@@ -12,6 +12,7 @@
 @end
 @interface ViewController : UIViewController<ViewControllerDelegate>
 
+- (IBAction)goPink:(id)sender;
 
 @end
 

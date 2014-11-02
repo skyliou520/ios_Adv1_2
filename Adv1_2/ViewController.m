@@ -13,6 +13,10 @@
 @end
 
 @implementation ViewController
+-(IBAction)backMessage:(UIStoryboardSegue*)segue{
+    
+    NSLog(@"back using unwind");
+}
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender   {
     BackViewController* destination = segue.destinationViewController;
     destination.delegate = self;
@@ -39,4 +43,11 @@
     
 }
 
+
+- (IBAction)goPink:(id)sender {
+    UIViewController* destionation = [self.storyboard instantiateViewControllerWithIdentifier:@"pink"];
+    [self presentViewController:destionation animated:YES completion:^{
+        ;
+    }];
+}
 @end
